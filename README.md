@@ -1,24 +1,8 @@
-# Projeto JVM - Software Basico
-
-## Compilação e informações com javac/javap
-
-Converter arquivo ``.java`` para ``.class``
-
-``` bash
-$ javac HelloJava.java
-```
-
-Mostra informações do arquivo ``.class``
-
-``` bash
-$ javap HelloJava.class
-
-# para mais info, flags -c, -verbose ou -v
-$ javap -v HelloJava.class
-```
+# Template - C++
 
 # Compilando
 
+- excluir a pasta build antes de colocar os comandos de compilação abaixo
 ``` bash
 # Linux
 $ ./compile.sh -l
@@ -29,19 +13,7 @@ $ ./compile.sh -w
 
 # Executando
 
-## Leitor e Exibidor
-
-``` bash
-# Linux e Windows
-$ ./jvm_boss -e test/HelloJava.class
-
-# ou utilizar bash script
-$ ./exec.sh HelloJava
-```
-
-# Configurações
-
-## Versão Java SE 8
+./cpp_template
 
 ## Analisadores 
 
